@@ -17,7 +17,7 @@
 
   <main class="form-container">
     <h2>Бүртгүүлэх</h2>
-    <form action="#" method="POST">
+    <form id="signupForm">
       <label for="fullname">Нэр:</label>
       <input type="text" id="fullname" name="fullname" required placeholder="Таны нэр" />
 
@@ -32,6 +32,11 @@
       
       <button type="submit" class="btn btn-signup">Бүртгүүлэх</button>
     </form>
+
+    <p id="message" style="color: red;"></p>
   </main>
+
+  <!-- Link external script -->
+  <script src="signup.js"></script>
 </body>
 </html>
